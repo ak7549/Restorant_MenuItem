@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+
+.navbar {
+  background-color: rgba(26, 176, 226, 0.784);
+  height: 8rem;
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  
+}
+
+.navbar .left .logo {
+  width: 45%;
+  position: relative;
+  bottom: 6px;
+  left: 2rem;
+}
+
+.right ul {
+  display: flex;
+ 
+}
+
+.right ul li {
+  margin: 0 20px;
+  list-style-type: none;
+  position: relative;
+  right: 1rem;
+}
+
+.right ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.right ul li a:hover {
+  color: black;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 854px) {
+  .navbar {
+    /* display: flex; */
+    flex-direction: column;
+    height: 12rem;
+    
+  }
+
+
+  .navbar .left .logo {
+  width: 45%;
+  position: relative;
+  bottom: 8px;
+  left: 5rem;
+}
+
+
+}
+
+
+@media screen and (max-width: 539px) {
+    
+    .right ul li a {
+        font-size: small;
+      }
+
+      .right ul li {
+        margin: 0 18px;
+        
+      }
+  
+}
+
+@media screen and (max-width: 442px) {
+    .right ul li a {
+        font-size: x-small;
+      }
+
+      .right ul li {
+        margin: 0 12px;
+        
+      }
+  
+  
+}
+
+
+@media screen and (max-width: 442px) {
+    /*  */
+
+      .right ul li {
+        margin: 0 10px;
+        
+      }
+  
+  
+}
+
+@media screen and (max-width: 300px) {
+    /*  */
+
+      .right ul li {
+        margin: 0 4px;
+        
+      }
+  
+  
+}
+
+
+
+@media screen and (max-width: 249px) {
+    /*  */
+    .right ul li a {
+        font-size: xx-small;
+      }
+      .right ul li {
+        margin: 0 2px;
+        
+      }
+  
+  
+}
+
+
+
